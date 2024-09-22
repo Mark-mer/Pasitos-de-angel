@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasitos de &aacute;ngeles</title>
-    <link rel="icon" href="icon/logo_imperfecto.png" type="image/x-icon">
+    <link rel="icon" href="icon/brand_logo.png" type="image/x-icon">
 </head>
 
 
