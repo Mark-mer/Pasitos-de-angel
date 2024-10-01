@@ -56,7 +56,7 @@
                             <i class="fa-solid fa-people-roof"></i> Administracion
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clipboard-user logo-size"></i> Administrar empleados</a></li>
+                                <li><a class="dropdown-item" href="/sistemas/Administrativo/adm_empleados.php"><i class="fa-solid fa-clipboard-user logo-size"></i> Administrar empleados</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hands-holding-child"></i> Administrar familiares</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-users logo-size"></i> Administrar usuarios</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-children"></i> Administrar niños</a></li>
