@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../icon/brand_logo_circle.png" type="image/x-icon">
     <title>WingSteps | Bienvenida!</title>
-    <?php include __DIR__ . '/../libs.php' ?>
+    <?php include __DIR__ . '/../links.php' ?>
     <link rel="stylesheet" href="../css/app.css">
     <style>
         #header {
