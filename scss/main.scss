@@ -12,7 +12,9 @@ $bottle-green: #072926;
 .main-container {
     height: 100vh;
 
-    .carousel-item img {}
+    .carousel-item img {
+        height: 90vh;
+    }
 
     &-section1 {}
 

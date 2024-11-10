@@ -1,6 +1,9 @@
 .main-container {
   height: 100vh;
 }
+.main-container .carousel-item img {
+  height: 90vh;
+}
 .main-container-section3 {
   background: #343a40;
   color: white;

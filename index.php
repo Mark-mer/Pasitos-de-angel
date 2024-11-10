@@ -24,7 +24,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://imgs.search.brave.com/h7CQYnKmi1ykV1ZaP_6Nv5zdlsnyryA0gVGwvHDloJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzA2Lzg0Lzc1/LzM2MF9GXzEwNjg0/NzU4Ml83SmNSeUhW/eTB4c3A5cUlEdnVj/Y21kbDVvejNqb3Ji/bS5qcGc" class="d-block w-100" alt="...">
+                    <img src="img/Slider1.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-black">
                         <h5>Imagen #1</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio porro deserunt eveniet?</p>
