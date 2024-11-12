@@ -2,6 +2,7 @@
 <html lang="en">
 <?php include_once 'links.php' ?>
 
+<!-- Header -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,19 @@
     <link rel="icon" href="icon/brand_logo_circle.png" type="image/x-icon">
     <link rel="stylesheet" href="scss/css/main.css">
 </head>
+<!-- Fin del Header -->
 
 <body>
     <main class="main-container">
+
+    <!-- Navegación -->
         <?php
         include 'navbar.php'
         ?>
+
+        <!-- Fin de Navegación -->
+
+         <!-- Slider -->
 
         <div id="pda-slider" class="carousel slide">
             <div class="carousel-indicators">
@@ -24,7 +32,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/Slider1.jpg" class="d-block w-100" alt="...">
+                <img src="https://imgs.search.brave.com/UbLL0P1ow6NiUNEN5pVxnKGFlpzm7q78UAoffP3RcGw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzcxLzU1LzU2/LzM2MF9GXzI3MTU1/NTY4M19LRkdLRUNl/NlRIbXdPdzE0cTNi/MFpKR01XTDJicG9N/MC5qcGc" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-black">
                         <h5>Imagen #1</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio porro deserunt eveniet?</p>
@@ -54,7 +62,9 @@
                 <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
+         <!-- Fin del Slider -->
 
+           <!-- Pincelada de Servicios: Pag Principal -->
         <section class="main-container-section2 container bg-light col-12 py-5">
             <h3 class="text-center mb-4">¿Qu&eacute; ofrecemos?</h3>
             <div class="row">
@@ -85,12 +95,18 @@
             </div>
         </section>
 
+        <!-- Seccion de noticias + link hacia el blog -->
         <section class="main-container-section3 container col-12 py-5">
             <h3 class="text-center mb-4">Acerca de nosotros</h3>
             <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et, accusantium optio inventore tempora soluta!</p>
             <a href="nosotros.php" class="text-center d-block">Ver mas</a>
         </section>
+        <!-- Fin de Seccion de noticias-->
 
+
+        <!-- Fin de Servicios: Pag Principal -->
+
+         <!-- Recordar: parte de Testimonios -->
         <section class="main-container-section4 container bg-light col-12 py-5">
             <h3 class="text-center mb-4">Comentarios</h3>
             <form action="contact.php" method="post">
@@ -109,7 +125,9 @@
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </section>
+        <!-- Fin de Testimonios -->
 
+    <!-- Footer -->
         <?php
         include 'footer.php';
         ?>
@@ -118,6 +136,7 @@
     <?php
     include 'scripts.php';
     ?>
+    <!-- Fin del Footer -->
 
 </body>
 
