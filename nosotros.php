@@ -23,6 +23,8 @@
     <!-- Nosotros -->
     <section class="about-us-section container col-12 py-5">
 
+    <h1 id="about-us" class="text-center mb-4">Sobre Nosotros</h1>
+
         <h2 class="text-center mb-4">Nuestra Historia</h2>
 
         <p class="text-center">Pasitos de ángeles fue fundada en 2020 con la misión de ayudar a los niños necesitados. Nuestro objetivo es proporcionar recursos y apoyo a las familias para asegurar que cada niño tenga la oportunidad de prosperar. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque accusamus deleniti hic dignissimos vel unde officia nihil, perspiciatis obcaecati qui?</p>

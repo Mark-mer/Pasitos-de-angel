@@ -9,7 +9,7 @@
                 <ul class="list-unstyled">
                     <li><a href="#" class="text-white">Políticas de privacidad</a></li>
                     <li><a href="#" class="text-white">T&eacute;rminos de Servicio</a></li>
-                    <li><a href="#" class="text-white">Cont&aacute;ctanos</a></li>
+                    <li><a href="contactanos.php" class="text-white">Cont&aacute;ctanos</a></li>
                 </ul>
             </div>
         </div>

@@ -7,10 +7,13 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.php">Blog</a>
+                    <a class="nav-link" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="nosotros.php">Nosotros</a>
+                    <a class="nav-link" href="servicios.php">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contactanos.php">Cont&aacute;ctanos</a>
