@@ -71,7 +71,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h4 class="card-title">Servicio #1</h4>
+                            <h4 class="card-title">Guard&iacute;a</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quas magnam ducimus iusto officiis eligendi sint vitae ratione, quasi aperiam!</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h4 class="card-title">Servicio #2</h4>
+                            <h4 class="card-title">Nivel Inicial</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi expedita porro ipsam libero rerum repellat!</p>
                         </div>
                     </div>
@@ -87,7 +87,15 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h4 class="card-title">Servicio #3</h4>
+                            <h4 class="card-title">Sala de Tareas</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Servicio Ambulatorio</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, deleniti.</p>
                         </div>
                     </div>
@@ -97,9 +105,10 @@
 
         <!-- Seccion de noticias + link hacia el blog -->
         <section class="main-container-section3 container col-12 py-5">
-            <h3 class="text-center mb-4">Acerca de nosotros</h3>
+            <h3 class="text-center mb-4">Visita nuestro Blog</h3>
             <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et, accusantium optio inventore tempora soluta!</p>
-            <a href="nosotros.php" class="text-center d-block">Ver mas</a>
+            <a class="text-center d-block" href="blog.php" id="more">Ver m&aacute;s</a>
+            
         </section>
         <!-- Fin de Seccion de noticias-->
 
@@ -108,22 +117,48 @@
 
          <!-- Recordar: parte de Testimonios -->
         <section class="main-container-section4 container bg-light col-12 py-5">
-            <h3 class="text-center mb-4">Comentarios</h3>
-            <form action="contact.php" method="post">
-                <div class="form-group mb-3">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" class="form-control" required>
-                </div>
-                <div class="form-group mb-3">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" class="form-control" required>
-                </div>
-                <div class="form-group mb-3">
-                    <label for="message">Mensaje:</label>
-                    <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+            <h3 class="text-center mb-4">Testimonios</h3>
+            
+            <div class="container__right">
+          <div class="card">
+            <img src="" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  We had a great time collaboraring with the Filament team. They
+                  have my high recommendation!
+                </p>
+                <h4>- Marnus Stephen</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  The team drastically improved our product's user experience &
+                  increased our business outreach.
+                </p>
+                <h4>- Andrew Jettpace</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  I absolutely loved working with the Filament team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- Fin de Testimonios -->
 
