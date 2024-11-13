@@ -2,7 +2,7 @@
 <html lang="en">
 <?php include_once 'links.php' ?>
 
-<!-- Header -->
+<!-- Head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link rel="icon" href="icon/brand_logo_circle.png" type="image/x-icon">
     <link rel="stylesheet" href="scss/css/main.css">
 </head>
-<!-- Fin del Header -->
+<!-- Fin del Head -->
 
 <body>
     <main class="main-container">
@@ -67,8 +67,8 @@
            <!-- Pincelada de Servicios: Pag Principal -->
         <section class="main-container-section2 container bg-light col-12 py-5">
             <h3 class="text-center mb-4">¿Qu&eacute; ofrecemos?</h3>
-            <div class="row">
-                <div class="col-md-4 mb-4">
+            <div class="row" id="cards">
+                <div class="">
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Guard&iacute;a</h4>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="">
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Nivel Inicial</h4>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="">
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Sala de Tareas</h4>
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="">
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Servicio Ambulatorio</h4>
@@ -116,7 +116,7 @@
         <!-- Fin de Servicios: Pag Principal -->
 
          <!-- Recordar: parte de Testimonios -->
-        <section class="main-container-section4 container bg-light col-12 py-5">
+       <!-- <section class="main-container-section4 container bg-light col-12 py-5">
             <h3 class="text-center mb-4">Testimonios</h3>
             
             <div class="container__right">
@@ -159,7 +159,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
         <!-- Fin de Testimonios -->
 
     <!-- Footer -->

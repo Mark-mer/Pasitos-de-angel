@@ -9,3 +9,27 @@
   color: black;
 }/*# sourceMappingURL=main.css.map */
 
+
+
+
+#cards{
+  
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.card-body{
+  background: var(--white);
+  border-radius: 2rem;
+  box-shadow: var(--box-shadow);
+  outline: .1rem solid rgba(0,0,0,.1);
+  outline-offset: -1rem;
+  overflow: hidden;
+}
+
+.page-footer{
+  background-color: #00b6fd;
+}
